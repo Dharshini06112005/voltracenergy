@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-heading: "Outfit", sans-serif;
+  
+  /* Brand Color Palette - Professional Light Theme */
+  --color-brand-dark: #f8fafc;
+  --color-brand-navy: #0f172a;
+  --color-brand-card: #ffffff;
+  --color-brand-teal: #0d9488;
+  --color-brand-cyan: #0284c7;
+  --color-brand-orange: #ea580c;
+  --color-brand-emerald: #059669;
+  
+  /* Custom transitions */
+  --animate-fade-in-up: fade-in-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-pulse-slow: pulse-slow 3s infinite ease-in-out;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(1.05);
+  }
+}
+
+/* Base styles configuration */
+html, body {
+  font-family: var(--font-sans);
+  background-color: #f8fafc;
+  color: #334155;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Glassmorphism utility for Light Mode */
+.glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.7);
+  box-shadow: 0 10px 30px -10px rgba(15, 23, 42, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  border-color: rgba(13, 148, 136, 0.3);
+  box-shadow: 0 20px 40px -15px rgba(13, 148, 136, 0.12);
+  transform: translateY(-4px);
+}
+
+.glass-light {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0d9488;
+}
+
+/* Glowing text elements suited for light theme backgrounds */
+.text-glow-teal {
+  text-shadow: 0 2px 8px rgba(13, 148, 136, 0.15);
+}
+
+.text-glow-orange {
+  text-shadow: 0 2px 8px rgba(234, 88, 12, 0.15);
+}
+
+/* Technical Blueprint & Watermarks Background Overlays */
+.bg-blueprint-scooter {
+  background-image: radial-gradient(rgba(13, 148, 136, 0.03) 1.5px, transparent 1.5px), url('https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?q=80&w=1200&auto=format&fit=crop');
+  background-size: 30px 30px, 600px;
+  background-repeat: repeat, no-repeat;
+  background-position: center, right -100px top 100px;
+  background-attachment: scroll, fixed;
+}
+
+.bg-blueprint-rickshaw {
+  background-image: radial-gradient(rgba(234, 88, 12, 0.03) 1.5px, transparent 1.5px), url('https://images.unsplash.com/photo-1595246140625-573b715d11dc?q=80&w=1200&auto=format&fit=crop');
+  background-size: 30px 30px, 600px;
+  background-repeat: repeat, no-repeat;
+  background-position: center, right -100px top 100px;
+  background-attachment: scroll, fixed;
+}
+
+.bg-blueprint-golf {
+  background-image: radial-gradient(rgba(13, 148, 136, 0.03) 1.5px, transparent 1.5px), url('https://images.unsplash.com/photo-1594122230689-45899d9e6f69?q=80&w=1200&auto=format&fit=crop');
+  background-size: 30px 30px, 600px;
+  background-repeat: repeat, no-repeat;
+  background-position: center, right -100px top 100px;
+  background-attachment: scroll, fixed;
+}
+
+.bg-blueprint-mhe {
+  background-image: radial-gradient(rgba(13, 148, 136, 0.03) 1.5px, transparent 1.5px), url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200&auto=format&fit=crop');
+  background-size: 30px 30px, 600px;
+  background-repeat: repeat, no-repeat;
+  background-position: center, right -100px top 100px;
+  background-attachment: scroll, fixed;
+}
+
+.bg-blueprint-custom {
+  background-image: radial-gradient(rgba(234, 88, 12, 0.03) 1.5px, transparent 1.5px), url('https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1200&auto=format&fit=crop');
+  background-size: 30px 30px, 600px;
+  background-repeat: repeat, no-repeat;
+  background-position: center, right -100px top 100px;
+  background-attachment: scroll, fixed;
+}
+
+.bg-blueprint-home {
+  background-image: radial-gradient(rgba(13, 148, 136, 0.015) 1.5px, transparent 1.5px), url('https://images.unsplash.com/photo-1558441719-ff34b0524a24?q=80&w=1200&auto=format&fit=crop');
+  background-size: 40px 40px, 700px;
+  background-repeat: repeat, no-repeat;
+  background-position: center, right -150px top 35%;
+  background-attachment: scroll, fixed;
+}

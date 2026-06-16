@@ -1,0 +1,385 @@
+[
+  {
+    "id": "volt-moto-2w-lite",
+    "name": "Voltrac Moto 2W Lite",
+    "category": "two-wheeler",
+    "tagline": "Compact LFP Traction Pack for Commuter E-Scooters",
+    "image": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?q=80&w=500&auto=format&fit=crop",
+    "briefSpecs": [
+      { "label": "Voltage & Capacity", "value": "60V / 30Ah (1.8 kWh)" },
+      { "label": "Life Cycle", "value": "2500+ Cycles @ 80% DOD" },
+      { "label": "Compliance", "value": "AIS 156 Phase 2 Certified" }
+    ],
+    "description": "Voltrac Moto 2W Lite is a high-density Lithium Iron Phosphate (LiFePO4) battery pack designed for commuter electric scooters and delivery e-bikes. Engineered with custom structural cell isolation and thermal shock resistance, it provides steady torque, long service life, and unmatched safety on hot city streets.",
+    "features": [
+      "Full compliance with latest AIS 156 Phase 2 thermal safety directives",
+      "IP67 dust and water-tight pressure-cast aluminum containment case",
+      "Integrated smart BMS with cell-level balancing and over-current prevention",
+      "Thermal containment barriers prevent flame propagation between cell matrices",
+      "Supports standard charging profile restoring 100% capacity in 3 hours"
+    ],
+    "specifications": [
+      { "label": "Nominal Voltage", "value": "60 V" },
+      { "label": "Nominal Capacity", "value": "30 Ah (1.8 kWh)" },
+      { "label": "Battery Chemistry", "value": "Lithium Iron Phosphate (LiFePO4)" },
+      { "label": "Continuous Discharge", "value": "45 A" },
+      { "label": "Peak Discharge", "value": "90 A (for 5 seconds)" },
+      { "label": "Weight", "value": "12.8 Kg" },
+      { "label": "Dimensions (W x H x D)", "value": "180 x 240 x 165 mm" }
+    ],
+    "applications": [
+      "Commuter Electric Scooters",
+      "Last-mile courier and delivery e-bikes",
+      "Lightweight commercial mopeds"
+    ],
+    "related": ["volt-moto-2w-pro", "volt-charger-2w"]
+  },
+  {
+    "id": "volt-moto-2w-pro",
+    "name": "Voltrac Moto 2W Pro",
+    "category": "two-wheeler",
+    "tagline": "High-Torque EV Battery for Performance & Fleet E-Scooters",
+    "image": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?q=80&w=500&auto=format&fit=crop",
+    "briefSpecs": [
+      { "label": "Voltage & Capacity", "value": "72V / 42Ah (3.0 kWh)" },
+      { "label": "Life Cycle", "value": "3000+ Cycles @ 80% DOD" },
+      { "label": "Fast Charge", "value": "0 to 80% in 45 Mins" }
+    ],
+    "description": "The Voltrac Moto 2W Pro is an advanced, high-performance battery pack built for high-speed electric scooters and heavy-duty delivery fleets. Leveraging high-discharge LFP cells and active cooling configurations, it yields impressive acceleration rates, extended range capabilities, and maximum operational uptime.",
+    "features": [
+      "AIS 156 certified dual pressure relief valves for safety venting",
+      "CAN 2.0B communication protocol interface for telematics integration",
+      "Smart micro-BMS tracks individual cell temperature and state-of-health",
+      "IP67 cast metal enclosure with shock-absorbing structural structural ribs",
+      "Supports 1.5C rapid charging configurations"
+    ],
+    "specifications": [
+      { "label": "Nominal Voltage", "value": "72 V" },
+      { "label": "Nominal Capacity", "value": "42 Ah (3.0 kWh)" },
+      { "label": "Battery Chemistry", "value": "Lithium Iron Phosphate (LiFePO4)" },
+      { "label": "Continuous Discharge", "value": "60 A" },
+      { "label": "Peak Discharge", "value": "130 A (for 10 seconds)" },
+      { "label": "Weight", "value": "18.5 Kg" },
+      { "label": "Dimensions (W x H x D)", "value": "210 x 280 x 180 mm" }
+    ],
+    "applications": [
+      "High-speed Commuter E-Scooters",
+      "E-commerce delivery fleet vehicles",
+      "Electric utility motorcycles"
+    ],
+    "related": ["volt-moto-2w-lite", "volt-charger-2w"]
+  },
+  {
+    "id": "volt-rickshaw-lfp-48",
+    "name": "Voltrac Rickshaw LFP 48V",
+    "category": "three-wheeler",
+    "tagline": "Heavy-Duty Battery Pack for Passenger E-Rickshaws",
+    "image": "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?q=80&w=500&auto=format&fit=crop",
+    "briefSpecs": [
+      { "label": "Voltage & Capacity", "value": "48V / 100Ah (4.8 kWh)" },
+      { "label": "Traction Cycles", "value": "3000+ Cycles @ 90% DOD" },
+      { "label": "Casing Status", "value": "Heavy Gauge Steel IP65" }
+    ],
+    "description": "Designed specifically for passenger e-rickshaws, the Voltrac Rickshaw LFP 48V provides double the usable life of standard lead-acid packs. It features exceptional deep discharge stability and thermal cooling fins, allowing operators to run double shifts without mid-day thermal throttling.",
+    "features": [
+      "Specifically tuned for last-mile public transit operations in high ambient heat",
+      "Dual pressure-vent safety system with flame barrier inserts",
+      "BMS integration with standard rickshaw speed controllers and dashboard meters",
+      "Heavy gauge steel construction protects against severe under-carriage impacts",
+      "High efficiency cooling fins for passive thermal dissipation"
+    ],
+    "specifications": [
+      { "label": "Nominal Voltage", "value": "48 V (51.2V Actual)" },
+      { "label": "Nominal Capacity", "value": "100 Ah (5.12 kWh)" },
+      { "label": "Battery Chemistry", "value": "Lithium Iron Phosphate (LiFePO4)" },
+      { "label": "Continuous Discharge", "value": "100 A" },
+      { "label": "Standard Charge Current", "value": "25 A" },
+      { "label": "Weight", "value": "38.5 Kg" },
+      { "label": "Dimensions (W x H x D)", "value": "310 x 420 x 220 mm" }
+    ],
+    "applications": [
+      "Passenger E-Rickshaws",
+      "Municipal electric shuttle carts",
+      "Commercial three-wheeler loaders"
+    ],
+    "related": ["volt-rickshaw-cargo", "volt-charger-3w"]
+  },
+  {
+    "id": "volt-rickshaw-cargo",
+    "name": "Voltrac Rickshaw Cargo",
+    "category": "three-wheeler",
+    "tagline": "Ultra-Capacity Traction Pack for Commercial E-Loaders",
+    "image": "https://images.unsplash.com/photo-1595246140625-573b715d11dc?q=80&w=500&auto=format&fit=crop",
+    "briefSpecs": [
+      { "label": "Voltage & Capacity", "value": "51.2V / 130Ah (6.6 kWh)" },
+      { "label": "Traction Cycles", "value": "3500+ Cycles @ 90% DOD" },
+      { "label": "Enclosure Rating", "value": "IP66 Rugged Casing" }
+    ],
+    "description": "The Voltrac Rickshaw Cargo is a premium, high-capacity battery system engineered to haul heavy payloads in commercial three-wheeler cargo loaders. Utilizing Grade-A LFP chemistry and robust cell-linking matrices, it provides the torque required for steep climbs and high cargo mileage.",
+    "features": [
+      "Grade-A prismatic LiFePO4 cells with structural anti-vibration framing",
+      "State-of-health tracking compatible with modern GPS fleet telematics",
+      "Deep discharge capacity (95% DOD) without voltage sag under full payload",
+      "Inbuilt short-circuit, over-charge, and temperature cut-off safety circuits",
+      "Rugged metal handles and heavy-duty terminal posts for secure installation"
+    ],
+    "specifications": [
+      { "label": "Nominal Voltage", "value": "51.2 V" },
+      { "label": "Nominal Capacity", "value": "130 Ah (6.65 kWh)" },
+      { "label": "Battery Chemistry", "value": "Lithium Iron Phosphate (LiFePO4)" },
+      { "label": "Continuous Discharge", "value": "120 A" },
+      { "label": "Peak Discharge", "value": "200 A (for 10 seconds)" },
+      { "label": "Weight", "value": "49.0 Kg" },
+      { "label": "Dimensions (W x H x D)", "value": "340 x 480 x 230 mm" }
+    ],
+    "applications": [
+      "Commercial Cargo E-Loaders",
+      "Industrial transport flatbeds",
+      "Heavy-duty municipal utility vehicles"
+    ],
+    "related": ["volt-rickshaw-lfp-48", "volt-charger-3w"]
+  },
+  {
+    "id": "volt-turf-48",
+    "name": "Voltrac TurfMaster 48V",
+    "category": "golf-cart",
+    "tagline": "Deep-Cycle LFP Power for Premium Electric Golf Carts",
+    "image": "https://images.unsplash.com/photo-1620870426721-9f9e4d11d550?q=80&w=500&auto=format&fit=crop",
+    "briefSpecs": [
+      { "label": "Voltage & Capacity", "value": "48V / 100Ah (5.1 kWh)" },
+      { "label": "Rated Cycles", "value": "3500+ Cycles @ 80% DOD" },
+      { "label": "Weight Saving", "value": "Saves 150Kg vs Lead-Acid" }
+    ],
+    "description": "Voltrac TurfMaster 48V is a direct drop-in replacement for lead-acid battery banks in electric golf carts. Weighing less than a third of equivalent lead-acid strings, it dramatically reduces cart weight, increases speeds, protects green turf, and delivers zero-maintenance reliable power.",
+    "features": [
+      "Drop-in replacement for standard 48V golf cart battery bays",
+      "Dramatically improves vehicle efficiency and reduces wear on tires and brakes",
+      "Integrated Bluetooth BMS for battery health monitoring via mobile app",
+      "Maintenance-free design (no watering, acid leaks, or corrosion cleanup)",
+      "Fast charging allows full recharges between course rounds"
+    ],
+    "specifications": [
+      { "label": "Nominal Voltage", "value": "51.2 V" },
+      { "label": "Nominal Capacity", "value": "100 Ah (5.12 kWh)" },
+      { "label": "Battery Chemistry", "value": "Lithium Iron Phosphate (LiFePO4)" },
+      { "label": "Continuous Discharge", "value": "100 A" },
+      { "label": "Peak Discharge", "value": "200 A (for 5 seconds)" },
+      { "label": "Weight", "value": "39.0 Kg" },
+      { "label": "Warranty", "value": "5 Years Replacement" }
+    ],
+    "applications": [
+      "Fleet Golf Carts",
+      "Resort passenger shuttles",
+      "Airport utility transporter carts"
+    ],
+    "related": ["volt-turf-36", "volt-custom-traction"]
+  },
+  {
+    "id": "volt-turf-36",
+    "name": "Voltrac TurfMaster 36V",
+    "category": "golf-cart",
+    "tagline": "Deep-Cycle LFP Battery for Classic Utility Carts",
+    "image": "https://images.unsplash.com/photo-1646606625592-7d61da12cff0?q=80&w=500&auto=format&fit=crop",
+    "briefSpecs": [
+      { "label": "Voltage & Capacity", "value": "36V / 150Ah (5.4 kWh)" },
+      { "label": "Rated Cycles", "value": "3500+ Cycles @ 80% DOD" },
+      { "label": "Life Expectancy", "value": "10+ Years Design Life" }
+    ],
+    "description": "The Voltrac TurfMaster 36V provides high-capacity, deep-cycle lithium power for classic utility carts and industrial towing tugs. Its high capacity allows resort and commercial park operators to complete full-day shifts without intermediate charges.",
+    "features": [
+      "High capacity LFP cell structure with excellent energy density",
+      "Maintenance-free operation eliminates the need for acid refills",
+      "Onboard temperature monitoring protects cell health during hot summer days",
+      "High cycle count ensures 10+ years of active utility service",
+      "Drop-in form factor fits traditional 36V vehicle compartments"
+    ],
+    "specifications": [
+      { "label": "Nominal Voltage", "value": "38.4 V" },
+      { "label": "Nominal Capacity", "value": "150 Ah (5.76 kWh)" },
+      { "label": "Battery Chemistry", "value": "Lithium Iron Phosphate (LiFePO4)" },
+      { "label": "Continuous Discharge", "value": "120 A" },
+      { "label": "Standard Charge Current", "value": "30 A" },
+      { "label": "Weight", "value": "43.5 Kg" },
+      { "label": "Dimensions (W x H x D)", "value": "330 x 450 x 240 mm" }
+    ],
+    "applications": [
+      "Resort utility and luggage vehicles",
+      "Classic 36V fleet golf carts",
+      "Lightweight industrial tow tugs"
+    ],
+    "related": ["volt-turf-48", "volt-custom-traction"]
+  },
+  {
+    "id": "volt-traction-forklift",
+    "name": "Voltrac Forklift Pro 80V",
+    "category": "mhe",
+    "tagline": "Heavy-Duty Traction LFP Pack for Industrial Forklifts",
+    "image": "https://images.unsplash.com/photo-1508974239320-0a029497e820?q=80&w=500&auto=format&fit=crop",
+    "briefSpecs": [
+      { "label": "Voltage & Capacity", "value": "80V / 400Ah (32 kWh)" },
+      { "label": "Opportunity Charge", "value": "Full Charge in 1.5 Hours" },
+      { "label": "Enclosure Rating", "value": "Heavy Gauge Steel IP65" }
+    ],
+    "description": "Voltrac Forklift Pro 80V is a powerhouse traction battery for heavy-duty industrial forklifts, reach trucks, and warehouse stackers. Built to replace heavy lead-acid industrial blocks, it supports opportunity charging (charging during breaks) without memory degradation, offering 24/7 warehouse uptime.",
+    "features": [
+      "Supports rapid opportunity charging - top up 20% during coffee breaks",
+      "Massive lifecycle (4000+ charge cycles) with zero capacity degradation",
+      "Industrial CAN-bus interface integrates with warehouse fleet management systems",
+      "No acid fumes, ventilation bays, or battery exchange rooms required",
+      "Triple-layer safety system with integrated contactors and pressure venting"
+    ],
+    "specifications": [
+      { "label": "Nominal Voltage", "value": "83.2 V" },
+      { "label": "Nominal Capacity", "value": "400 Ah (33.28 kWh)" },
+      { "label": "Battery Chemistry", "value": "Lithium Iron Phosphate (LiFePO4)" },
+      { "label": "Max Continuous Current", "value": "250 A" },
+      { "label": "Standard Charge Current", "value": "150 A" },
+      { "label": "Weight", "value": "395 Kg" },
+      { "label": "Cabinet Setup", "value": "Industrial Custom Steel Box" }
+    ],
+    "applications": [
+      "Industrial Counterbalance Forklifts",
+      "Heavy-duty Reach Trucks",
+      "Logistics center lifting equipment"
+    ],
+    "related": ["volt-traction-stacker", "volt-custom-traction"]
+  },
+  {
+    "id": "volt-traction-stacker",
+    "name": "Voltrac Stacker LFP 24V",
+    "category": "mhe",
+    "tagline": "Compact Traction Module for Pallet Stackers & Jacks",
+    "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=500&auto=format&fit=crop",
+    "briefSpecs": [
+      { "label": "Voltage & Capacity", "value": "24V / 200Ah (4.8 kWh)" },
+      { "label": "Maintenance", "value": "Zero Maintenance Required" },
+      { "label": "Form Factor", "value": "Compact OEM Fit" }
+    ],
+    "description": "The Voltrac Stacker LFP 24V is a rugged, compact traction battery module specifically engineered for electric pallet jacks, stackers, and Order Pickers. Its compact design fits standard OEM compartments, enabling easy upgrade transitions to high-efficiency lithium power.",
+    "features": [
+      "OEM drop-in replacement dimensions for leading pallet jack brands",
+      "Excellent vibration resistance, perfect for dock-crossing and rough floors",
+      "Fast charging capability restores full power in under 2 hours",
+      "State-of-charge LED display mounted on battery face",
+      "Smart BMS prevents deep discharge damage from heavy loading cycles"
+    ],
+    "specifications": [
+      { "label": "Nominal Voltage", "value": "25.6 V" },
+      { "label": "Nominal Capacity", "value": "200 Ah (5.12 kWh)" },
+      { "label": "Battery Chemistry", "value": "Lithium Iron Phosphate (LiFePO4)" },
+      { "label": "Continuous Discharge", "value": "100 A" },
+      { "label": "Peak Discharge", "value": "180 A (for 5 seconds)" },
+      { "label": "Weight", "value": "46.0 Kg" },
+      { "label": "Dimensions (W x H x D)", "value": "260 x 380 x 195 mm" }
+    ],
+    "applications": [
+      "Electric Walkie Pallet Jacks",
+      "Warehouse Pedestrian Stackers",
+      "Order Pickers & Tuggers"
+    ],
+    "related": ["volt-traction-forklift", "volt-custom-traction"]
+  },
+  {
+    "id": "volt-charger-2w",
+    "name": "Voltrac ChargePack 2W",
+    "category": "ev-charger",
+    "tagline": "Smart High-Frequency Charger for E-Scooters & E-Bikes",
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?q=80&w=500&auto=format&fit=crop",
+    "briefSpecs": [
+      { "label": "Output Voltage", "value": "60V / 72V Auto-detect" },
+      { "label": "Charging Current", "value": "10 A Max Output" },
+      { "label": "Safety Rules", "value": "Over-Temp & Reverse Polarity" }
+    ],
+    "description": "Voltrac ChargePack 2W is a smart, high-frequency lithium charger designed specifically for electric two-wheelers. Armed with an advanced microchip controller, it automatically detects pack voltage (60V or 72V) and applies a optimized CC/CV charging profile to maximize cell lifespan.",
+    "features": [
+      "Auto-detects battery state-of-charge and regulates charging rates",
+      "Active cooling fan with quiet noise-controlled operation",
+      "Rugged aluminum housing with IP54 ingress protection rating",
+      "Built-in protection against over-voltage, short-circuit, and reverse polarity",
+      "LED charging progress indicators (Red: Charging, Green: Complete)"
+    ],
+    "specifications": [
+      { "label": "Input Voltage Range", "value": "180V - 265V AC / 50Hz" },
+      { "label": "Output Voltage Range", "value": "50V - 88V DC" },
+      { "label": "Max Output Current", "value": "10 A" },
+      { "label": "Charging Efficiency", "value": "> 92%" },
+      { "label": "Cooling System", "value": "Forced Air Cooling Fan" },
+      { "label": "Weight", "value": "2.2 Kg" }
+    ],
+    "applications": [
+      "Home electric scooter charging",
+      "Delivery hub charging bays",
+      "Public scooter charging kiosks"
+    ],
+    "related": ["volt-moto-2w-lite", "volt-moto-2w-pro"]
+  },
+  {
+    "id": "volt-charger-3w",
+    "name": "Voltrac ChargePack 3W",
+    "category": "ev-charger",
+    "tagline": "Heavy-Duty High-Speed Charger for E-Rickshaws",
+    "image": "https://images.unsplash.com/photo-1554744512-d6c603f27c54?q=80&w=500&auto=format&fit=crop",
+    "briefSpecs": [
+      { "label": "Output Voltage", "value": "48V Nominal (58.4V Max)" },
+      { "label": "Charging Current", "value": "20 A Output Rate" },
+      { "label": "Enclosure Rating", "value": "IP55 Weatherproof" }
+    ],
+    "description": "The Voltrac ChargePack 3W is a ruggedized, high-speed charger built for commercial electric three-wheelers and passenger e-rickshaws. With a high charging current of 20A and an IP55 weatherproof enclosure, it can be mounted outdoors in charging stations to restore battery levels rapidly.",
+    "features": [
+      "Heavy-duty fast charge profile (fully charges 100Ah pack in 5 hours)",
+      "IP55 weather protection, ideal for outdoor fleet charging stations",
+      "High power factor correction (PFC) reduces grid energy consumption by 8%",
+      "Bright LED display showing real-time charging current and output voltage",
+      "Thermal reduction circuitry prevents charger overheating in tropical climates"
+    ],
+    "specifications": [
+      { "label": "Input Voltage Range", "value": "170V - 270V AC / 50Hz" },
+      { "label": "Output Voltage", "value": "48V DC (58.4V CV limit)" },
+      { "label": "Max Output Current", "value": "20 A" },
+      { "label": "Power Factor", "value": "0.98 at full load" },
+      { "label": "Protection Class", "value": "IP55 / Class I insulation" },
+      { "label": "Weight", "value": "3.8 Kg" }
+    ],
+    "applications": [
+      "Commercial e-rickshaw hubs",
+      "Municipal electric charging stations",
+      "Cargo three-wheeler loading docks"
+    ],
+    "related": ["volt-rickshaw-lfp-48", "volt-rickshaw-cargo"]
+  },
+  {
+    "id": "volt-custom-traction",
+    "name": "Voltrac Custom Traction Pack",
+    "category": "custom-traction",
+    "tagline": "Tailored LFP / NMC Battery packs for Bespoke EV Projects",
+    "image": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=500&auto=format&fit=crop",
+    "briefSpecs": [
+      { "label": "Voltage Scale", "value": "Customizable from 24V to 400V" },
+      { "label": "Capacity Scale", "value": "Customizable from 50Ah to 1000Ah" },
+      { "label": "Engineering", "value": "3D CAD Modeling & Thermal Sims" }
+    ],
+    "description": "Voltrac Custom Traction Packs are engineered systems designed for specialized electric vehicle applications including electric boats, utility tractors, airport ground support equipment, and customized industrial vehicle conversions. Our team designs, builds, and tests packs utilizing 3D CAD modeling and advanced thermal simulation to fit your specifications.",
+    "features": [
+      "Custom voltage configurations from 24V up to 400V high-voltage lines",
+      "Custom capacity matching and modular cell stacking geometries",
+      "Choice of cell chemistry: High-safety LFP or Ultra-dense NMC based on footprint",
+      "Customized BMS firmware with CAN, Modbus, or custom serial bus integrations",
+      "3D mechanical casing modeling, drop tests, and thermal safety certifications"
+    ],
+    "specifications": [
+      { "label": "Voltage Configuration", "value": "24V to 400V DC Custom" },
+      { "label": "Capacity Range", "value": "50 Ah to 1000 Ah Custom" },
+      { "label": "Cell Chemistry", "value": "LFP / NMC Options" },
+      { "label": "Enclosure Options", "value": "Stainless steel, Aluminum, or GRP" },
+      { "label": "Vibration Standards", "value": "IEC 60068-2 compliant structures" },
+      { "label": "Waterproof Class", "value": "Up to IP67 depending on request" }
+    ],
+    "applications": [
+      "Bespoke electric utility vehicles",
+      "Electric boats and marine propulsion packs",
+      "Airport ground support equipment (GSE)",
+      "Specialty vintage vehicle electrification conversions"
+    ],
+    "related": ["volt-moto-2w-pro", "volt-traction-forklift"]
+  }
+]
